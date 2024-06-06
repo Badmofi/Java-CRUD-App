@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blockbuster Video Database</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="A3.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <img src="Blockbuster-Logo-1987.png" alt="Blockbuster logo">
+        <h1>Welcome to Blockbuster Video!</h1>
+        
+        <button id="GetButton">Get Data</button>
+        <br>
+        <button id="AddButton">Add</button>
+        <button id="DeleteButton" disabled>Delete</button>
+        <button id="UpdateButton" disabled>Update</button>
+        
+        <div id="AddUpdatePanel">
+
+            <div>
+                <div class="formLabel">ID</div><input id="movieIDInput" type="number">
+            </div>
+            <div>
+                <div class="formLabel">Genre</div>
+                <select id="genreSelect">
+                    
+                </select>
+            </div>
+            <div>
+                <div class="formLabel">Title</div><input id="titleInput" type="text">
+            </div>
+            <div>
+                <div class="formLabel">Price</div><input id="priceInput" type="number">
+            </div>
+            <div>
+                <button id="DoneButton">Done</button>
+                <button id="CancelButton">Cancel</button>
+            </div>
+        </div>
+        
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Genre</th>
+                <th>Title</th>
+                <th>Price</th>
+            </tr>
+        </table>
+
+    </body>
+</html>
